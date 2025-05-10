@@ -27,7 +27,7 @@ Run following command in git bash:
 git clone https://github.com/Malkishara/todo_task_web_app-full_stack.git 
 
 
-### Build & Run with Docker
+### 2. Build & Run with Docker
 Start docker engine. Go to the project directory and run following command in terminal.
 
 docker-compose up --build
@@ -38,9 +38,9 @@ Backend API is available at: http://localhost:8080
 
 MySQL is running on: localhost:3306
 
-### Running Tests
+### 3. Running Tests
 
-Backend (Spring Boot) : Unit tests and integration tests
+**Backend (Spring Boot) : Unit tests and integration tests**
 
 Run 'cd backend' command on terminal for go to the backend directory. 
 
@@ -50,14 +50,14 @@ Run following command:
 ./mvnw test
 
 
-Frontend (React)
+**Frontend (React)**
 
-Unit Tests:
+*Unit Tests:*
 
 Run 'cd frontend' command on terminal for go to the frontend directory. 
 Run 'npm install' command.
 Run 'npm test'
 
-E2E Tests (Cypress):
+*E2E Tests (Cypress):*
 
 Run 'npx cypress open' command
