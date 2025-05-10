@@ -55,8 +55,10 @@ Run following command:
 *Unit Tests:*
 
 Run 'cd frontend' command on terminal for go to the frontend directory. 
+
 Run 'npm install' command.
-Run 'npm test'
+
+Run 'npm test' command.
 
 *E2E Tests (Cypress):*
 
